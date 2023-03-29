@@ -5106,7 +5106,7 @@ blockquote {
 .language-link {
   position: relative;
   display: flex;
-  width: 100%;
+  width: auto;
   min-height: 45px;
   justify-content: flex-start;
   align-items: center;
@@ -5124,7 +5124,8 @@ blockquote {
 }
 
 .language-list.w--open {
-  min-width: 200px;
+  min-width: 130px;
+  margin-left: -17px;
   padding: 8px 16px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
