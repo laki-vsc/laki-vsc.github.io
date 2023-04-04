@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Apr 04 2023 13:25:47 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Tue Apr 04 2023 17:03:00 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6421a99685c23ed268cc1d14" data-wf-site="6421a99685c23e570fcc1cf6">
 <head>
   <meta charset="utf-8">
@@ -20,6 +20,35 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
 <body class="body">
+  <script>
+    // Define the language options and their corresponding URLs
+    const languageOptions = {
+      en: 'en/home.html',
+      tr: 'tr/anasayfa.html',
+      de: 'de/startseite.html'
+    };
+  
+    // Get the user's browser language, accounting for language codes with regions (e.g. "en_GB")
+    const userLanguage = navigator.language.slice(0, 2);
+  
+    // Get the timestamp for 6 hours ago
+    const sixHoursAgo = Date.now() - (6 * 60 * 60 * 1000);
+  
+    // Check if the user has visited the page in the last 6 hours
+    const lastVisit = localStorage.getItem('lastVisit');
+    const shouldRedirect = !lastVisit || lastVisit < sixHoursAgo;
+  
+    // If the user's language is not Finnish and they should be redirected, redirect them
+    if (userLanguage !== 'fi' && shouldRedirect) {
+      const url = languageOptions[userLanguage] || languageOptions.en;
+      window.location.href = url;
+    }
+  
+    // Store the current timestamp as the user's last visit time
+    localStorage.setItem('lastVisit', Date.now());
+  </script>
+  
+  
   <div data-w-id="19b6bf98-3c41-7613-00be-4de283b06a6a" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
     <div class="container-navbar">
       <div class="left-navbar">
