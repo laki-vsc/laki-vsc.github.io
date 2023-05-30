@@ -1,121 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml" >
 
+  <!-- Finnish Pages -->
+  <url>
+    <loc>https://www.laki-vsc.fi/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://www.laki-vsc.fi/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/meista</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://www.laki-vsc.fi/meista"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/palvelut</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://www.laki-vsc.fi/palvelut"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/hinnasto</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://www.laki-vsc.fi/hinnasto"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/ota-yhteytta</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://www.laki-vsc.fi/ota-yhteytta"/>
+    <priority>0.8</priority>
+  </url>
 
-<url>
-  <loc>https://www.laki-vsc.fi/</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/meista</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/palvelut</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/hinnasto</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/ota-yhteytta</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/en/home</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/tr/anasayfa</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/de/startseite</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/documents/Yksityisyysseloste_Lakiasiaintoimisto_VSC_Oy_Ltd.pdf</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/en/about</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/en/services</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/en/our-fees</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/en/contact</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/documents/Privacy-policy.pdf</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/tr/hakkimizda</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/tr/alanlarimiz</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/tr/ucretimiz</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/tr/iletisim</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/de/uber-uns</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/de/leistungen</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/de/preise</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.laki-vsc.fi/de/kontakt</loc>
-  <lastmod>2023-05-16T13:43:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <!-- English Pages -->
+  <url>
+    <loc>https://www.laki-vsc.fi/en/home</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.laki-vsc.fi/en/home"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.laki-vsc.fi/en/about"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.laki-vsc.fi/en/services"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/en/our-fees</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.laki-vsc.fi/en/our-fees"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.laki-vsc.fi/en/contact"/>
+    <priority>0.7</priority>
+  </url>
 
+  <!-- Turkish Pages -->
+  <url>
+    <loc>https://www.laki-vsc.fi/tr/anasayfa</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.laki-vsc.fi/tr/anasayfa"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/tr/hakkimizda</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.laki-vsc.fi/tr/hakkimizda"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/tr/alanlarimiz</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.laki-vsc.fi/tr/alanlarimiz"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/tr/ucretimiz</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.laki-vsc.fi/tr/ucretimiz"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/tr/iletisim</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://www.laki-vsc.fi/tr/iletisim"/>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- German Pages -->
+  <url>
+    <loc>https://www.laki-vsc.fi/de/startseite</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.laki-vsc.fi/de/startseite"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/de/uber-uns</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.laki-vsc.fi/de/uber-uns"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/de/leistungen</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.laki-vsc.fi/de/leistungen"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/de/preise</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.laki-vsc.fi/de/preise"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/de/kontakt</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.laki-vsc.fi/de/kontakt"/>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
