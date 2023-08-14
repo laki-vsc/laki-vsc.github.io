@@ -653,19 +653,19 @@ blockquote {
 }
 
 .image-absolute-halves.focus {
-  background-image: url('../images/toast.jpg');
+  background-image: url('../images/Toast.webp');
   background-position: 100%;
   left: 0%;
   right: auto;
 }
 
 .image-absolute-halves.wheretostart {
-  background-image: url('../images/handshake.jpg');
+  background-image: url('../images/Handshake.webp');
   background-position: 75%;
 }
 
 .image-absolute-halves.about {
-  background-image: url('../images/smile.jpg');
+  background-image: url('../images/Smile.webp');
 }
 
 .image-absolute-halves.team-image {
@@ -2301,7 +2301,7 @@ blockquote {
 
 .image-home-hero-a {
   z-index: -1;
-  background-image: url('../images/31-scaled-e1679233051337.jpg');
+  background-image: url('../images/Hero.webp');
   background-position: 50%;
   background-size: cover;
   position: absolute;
@@ -2312,19 +2312,19 @@ blockquote {
 }
 
 .image-home-hero-a.about {
-  background-image: url('../images/smile.jpg');
+  background-image: url('../images/Smile.webp');
 }
 
 .image-home-hero-a.services {
-  background-image: url('../images/213-1-scaled.jpg');
+  background-image: url('../images/Outside.webp');
 }
 
 .image-home-hero-a.pricing {
-  background-image: url('../images/mic.jpg');
+  background-image: url('../images/Speech.webp');
 }
 
 .image-home-hero-a.contact {
-  background-image: url('../images/laugh.jpg');
+  background-image: url('../images/Laugh.webp');
 }
 
 .heading-one-home-c {
@@ -3091,9 +3091,13 @@ blockquote {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.finncham-badge {
+.cooperation-badge {
   width: 200px;
   margin-top: 0;
+}
+
+.cooperation-badge.large {
+  width: 214px;
 }
 
 .image, .heading-5 {
@@ -3153,7 +3157,7 @@ blockquote {
 
 .footer-cta {
   height: 425px;
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/31-scaled-e1679233051337.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/Hero.webp');
   background-position: 0 0, 50% 35%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -3222,6 +3226,17 @@ blockquote {
 
 .heading-7 {
   text-align: center;
+}
+
+.cooperation-links-wrapper {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  align-items: center;
+  display: flex;
+}
+
+.team-link {
+  color: #111;
 }
 
 @media screen and (max-width: 991px) {
@@ -4855,6 +4870,13 @@ blockquote {
 
   .footer-socials {
     margin-top: 40px;
+  }
+
+  .cooperation-links-wrapper {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
