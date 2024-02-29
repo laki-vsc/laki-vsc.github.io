@@ -1233,10 +1233,6 @@ blockquote {
   text-align: right;
 }
 
-.body-4 {
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .heading {
   color: var(--black);
 }
@@ -1274,6 +1270,14 @@ blockquote {
   bottom: 0%;
   left: 0%;
   right: 0%;
+}
+
+.language-dropdown.hide-desktop {
+  display: none;
+}
+
+.language-dropdown.show-desktop {
+  display: block;
 }
 
 .language-link {
@@ -1341,7 +1345,6 @@ blockquote {
 .flag-image {
   width: 29px;
   height: 18px;
-  border-radius: 4px;
   margin-right: 14px;
 }
 
@@ -1773,6 +1776,7 @@ blockquote {
   }
 
   .dropdown {
+    padding-right: 36px;
     display: block;
   }
 
@@ -1792,6 +1796,12 @@ blockquote {
     align-items: flex-end;
     padding: 40px;
     overflow: hidden;
+  }
+
+  .right-navbar {
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
   }
 
   .circle-number {
@@ -1870,16 +1880,19 @@ blockquote {
     display: block;
   }
 
-  .language-list {
-    width: 30%;
-    margin-left: auto;
-    position: static;
+  .language-dropdown.hide-desktop {
+    display: block;
+  }
+
+  .language-dropdown.show-desktop {
+    display: none;
   }
 
   .language-list.w--open {
-    width: auto;
-    min-width: 0;
+    min-width: 145px;
+    border-radius: 3px;
     margin-bottom: 10px;
+    margin-left: -50%;
     padding: 10px 20px;
   }
 
@@ -1898,6 +1911,11 @@ blockquote {
 
   .flag-image {
     width: 29px;
+  }
+
+  .flag-image.no-margins {
+    width: 27px;
+    height: 16px;
   }
 
   .columns {
@@ -2035,6 +2053,10 @@ blockquote {
   .brand-navbar {
     width: 100px;
     margin-top: 0;
+  }
+
+  .right-navbar {
+    margin-right: 0;
   }
 
   .columns-sticky {
@@ -2299,22 +2321,21 @@ blockquote {
   }
 
   .dropdown {
-    padding-right: 40px;
-  }
-
-  .dropdown.w--open {
-    justify-content: flex-end;
-    display: flex;
+    padding-right: 23px;
   }
 
   .brand-navbar {
-    width: 90px;
+    width: 95px;
   }
 
   .nav-menu {
     background-color: var(--footer-black);
     align-items: flex-end;
     overflow: auto;
+  }
+
+  .link-brand-navbar {
+    padding-left: 0;
   }
 
   .subtitle {
@@ -2431,9 +2452,15 @@ blockquote {
   }
 
   .language-list.w--open {
-    width: auto;
-    min-width: 0;
+    margin-left: -80%;
     padding: 10px 20px;
+  }
+
+  .icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    font-size: 14px;
   }
 
   .text-block-3 {
@@ -2445,7 +2472,14 @@ blockquote {
   }
 
   .flag-image {
-    width: 29px;
+    width: 27px;
+    height: 16px;
+  }
+
+  .flag-image.no-margins {
+    width: 26px;
+    height: 15px;
+    margin-top: -4px;
   }
 
   .footer-socials {
@@ -2935,6 +2969,94 @@ blockquote {
   justify-self: start;
 }
 
+#w-node-_8d9bb582-4e63-275c-ed7e-b7ed49a216a9-25a4914d {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-cf12bd00-b2d2-c628-3014-fc4041a12ce8-25a4914d, #w-node-bda3b964-0a8a-d8b5-64aa-d6871d6c2221-25a4914d {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+  justify-self: start;
+}
+
+#w-node-bda3b964-0a8a-d8b5-64aa-d6871d6c221f-25a4914d, #w-node-eb79079e-00c2-fa36-8199-95aeb006d044-25a4914d, #w-node-eb79079e-00c2-fa36-8199-95aeb006d05d-25a4914d, #w-node-eb79079e-00c2-fa36-8199-95aeb006d077-25a4914d, #w-node-eb79079e-00c2-fa36-8199-95aeb006d099-25a4914d, #w-node-eb79079e-00c2-fa36-8199-95aeb006d0a7-25a4914d, #w-node-eb79079e-00c2-fa36-8199-95aeb006d0bd-25a4914d, #w-node-ea76654c-4414-7ff1-c85b-f875f8b47b46-f8b47b1e, #w-node-ea76654c-4414-7ff1-c85b-f875f8b47b54-f8b47b1e, #w-node-c2e75341-42a1-fcf3-7e9f-3f2d7ff2fd71-5b6b2844 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-c2e75341-42a1-fcf3-7e9f-3f2d7ff2fd73-5b6b2844, #w-node-_70bb178f-ec6f-2501-6beb-c7218cf27da8-5b6b2844 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+  justify-self: start;
+}
+
+#w-node-_70bb178f-ec6f-2501-6beb-c7218cf27da7-5b6b2844 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  justify-self: center;
+}
+
+#w-node-ce782a58-8b64-a193-752c-872bbbd0d475-5b6b2844 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  justify-self: start;
+}
+
+#w-node-ce782a58-8b64-a193-752c-872bbbd0d476-5b6b2844 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+  justify-self: start;
+}
+
+#w-node-_917d3096-2a23-5e9d-c9e0-4975fb97d8da-5b6b2844, #w-node-_917d3096-2a23-5e9d-c9e0-4975fb97d8e4-5b6b2844, #w-node-_917d3096-2a23-5e9d-c9e0-4975fb97d8ee-5b6b2844 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: start;
+  justify-self: center;
+}
+
+#w-node-a4fd4b84-0ba5-0f89-4706-02200afad044-0afad041 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-a4fd4b84-0ba5-0f89-4706-02200afad045-0afad041 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+  justify-self: start;
+}
+
+#w-node-_849d5fa4-3cca-8752-fb27-7985040e7a5d-9d1a7347 {
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: end;
+}
+
+#w-node-_6815097f-8768-7f63-8933-22c590cf82e6-9d1a7347 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_6815097f-8768-7f63-8933-22c590cf82e8-9d1a7347 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+  justify-self: start;
+}
+
+#w-node-_4af43ba7-0869-67a5-6cb3-2a70fc209b83-9b119d37 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_4af43ba7-0869-67a5-6cb3-2a70fc209b85-9b119d37 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+  justify-self: start;
+}
+
+#w-node-_0e65d4e3-1c04-8cfd-b3c2-5dc920bb3ff4-2f0eb2c6 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+}
+
+#w-node-c7ab3e67-3c33-662c-ffa5-828f30e0e3c5-2f0eb2c6 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
+  justify-self: center;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-d3f92c88-1b36-c62b-e596-becb158c8e81-6d0b831b {
     justify-self: start;
@@ -2949,6 +3071,14 @@ blockquote {
   }
 
   #w-node-_0e65d4e3-1c04-8cfd-b3c2-5dc920bb3ff4-ea65d738 {
+    justify-self: center;
+  }
+
+  #w-node-_849d5fa4-3cca-8752-fb27-7985040e7a5d-9d1a7347 {
+    justify-self: start;
+  }
+
+  #w-node-_0e65d4e3-1c04-8cfd-b3c2-5dc920bb3ff4-2f0eb2c6 {
     justify-self: center;
   }
 }
