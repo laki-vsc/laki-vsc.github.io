@@ -163,4 +163,30 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.laki-vsc.fi/fr/contact" />
     <priority>0.7</priority>
   </url>
+  <!-- Dutch Pages -->
+  <url>
+    <loc>https://www.laki-vsc.fi/nl/thuis</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.laki-vsc.fi/nl/thuis" />
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/nl/over</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.laki-vsc.fi/nl/over" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/nl/diensten</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.laki-vsc.fi/nl/diensten" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/nl/onze-tarieven</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.laki-vsc.fi/nl/onze-tarieven" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laki-vsc.fi/nl/contact</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.laki-vsc.fi/nl/contact" />
+    <priority>0.7</priority>
+  </url>
 </urlset>
