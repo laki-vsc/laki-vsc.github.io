@@ -2326,6 +2326,10 @@ blockquote {
     align-items: center;
   }
 
+  .footer-link {
+    text-align: center;
+  }
+
   .master-legal-footer {
     text-align: center;
     align-items: center;
