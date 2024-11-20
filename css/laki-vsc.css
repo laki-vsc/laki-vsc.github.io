@@ -251,6 +251,7 @@ blockquote {
 
 .grid-halves.uke-grid {
   grid-template-columns: 1.5fr 1fr;
+  align-items: center;
 }
 
 .grid-halves.istanbul-grid {
@@ -778,6 +779,10 @@ blockquote {
   height: 100px;
 }
 
+.person-image.teemu-summanen {
+  object-position: 50% 20%;
+}
+
 .person-content.arabic {
   text-align: right;
 }
@@ -1066,7 +1071,8 @@ blockquote {
 }
 
 .image-home-hero-a.about {
-  background-image: url('../images/Smile.webp');
+  background-image: url('../images/makihyppy.webp');
+  background-position: 20%;
 }
 
 .image-home-hero-a.services {
@@ -1074,11 +1080,13 @@ blockquote {
 }
 
 .image-home-hero-a.pricing {
-  background-image: url('../images/Speech.webp');
+  background-image: url('../images/toimisto-kuva.jpeg');
+  background-position: 20%;
 }
 
 .image-home-hero-a.contact {
-  background-image: url('../images/Laugh.webp');
+  background-image: url('../images/maki.jpeg');
+  background-position: 50%;
 }
 
 .nav-link-white {
@@ -2386,16 +2394,6 @@ blockquote {
     background-image: url('../images/31-scaled-e1679233051337.jpg'), url('../images/31-scaled-e1679233051337.jpg');
     background-position: 75%, 50%;
     background-size: cover, cover;
-  }
-
-  .image-home-hero-a.pricing {
-    background-image: url('../images/mic.jpg'), linear-gradient(to bottom, null, null);
-    background-position: 50%, 0 0;
-  }
-
-  .image-home-hero-a.contact {
-    background-image: url('../images/laugh.jpg'), linear-gradient(#0000, #0000);
-    background-position: 33%, 0 0;
   }
 
   .nav-link-white {
