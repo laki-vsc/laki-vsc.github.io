@@ -315,10 +315,6 @@ blockquote {
   line-height: 135%;
 }
 
-.paragraph-mega.card-paragraph.turkish {
-  height: auto;
-}
-
 .paragraph-mega.arabic {
   text-align: right;
 }
@@ -432,7 +428,7 @@ blockquote {
 }
 
 .image-absolute-halves.about {
-  background-image: url('../images/Smile.webp');
+  background-image: url('../images/Hero.webp');
 }
 
 .image-absolute-halves.desk {
@@ -622,10 +618,6 @@ blockquote {
   text-decoration: none;
 }
 
-.footer-link.card-link {
-  color: #25221c;
-}
-
 .master-legal-footer {
   border-top: .75px solid var(--light-elevation);
   justify-content: space-between;
@@ -772,7 +764,7 @@ blockquote {
 }
 
 .person-image {
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
   flex: none;
   width: 100px;
@@ -1063,7 +1055,7 @@ blockquote {
 
 .image-home-hero-a {
   z-index: -1;
-  background-image: url('../images/Hero.webp');
+  background-image: url('../images/toimisto-kuva.jpeg');
   background-position: 50%;
   background-size: cover;
   position: absolute;
@@ -1080,7 +1072,7 @@ blockquote {
 }
 
 .image-home-hero-a.pricing {
-  background-image: url('../images/toimisto-kuva.jpeg');
+  background-image: url('../images/toimisto-kuva.jpg');
   background-position: 20%;
 }
 
@@ -1125,10 +1117,6 @@ blockquote {
   justify-content: flex-end;
 }
 
-.alv {
-  font-size: 12px;
-}
-
 .card {
   border: 1px solid var(--gainsboro);
   background-color: #fff;
@@ -1160,10 +1148,20 @@ blockquote {
   line-height: 52px;
 }
 
-.display-3.mg-bottom-8px {
+.display-3.pricing-title {
   color: var(--black);
   font-family: Zodiak, sans-serif;
   font-size: 32px;
+  line-height: 1.1;
+}
+
+.display-3.pricing-title.show-mobile {
+  display: none;
+}
+
+.display-3.pricing-title.small {
+  font-size: 24px;
+  line-height: 1.1;
 }
 
 .badge-primary {
@@ -1217,8 +1215,8 @@ blockquote {
 }
 
 .pricing-paragraph {
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin-top: 16px;
+  margin-bottom: 20px;
 }
 
 .pricing-paragraph.arabic {
@@ -1230,16 +1228,17 @@ blockquote {
 }
 
 .heading.contact {
+  margin-bottom: 16px;
   font-size: 48px;
+}
+
+.heading.contact.small {
+  font-size: 36px;
+  line-height: 1.2;
 }
 
 .bold-text, .bold-text-2 {
   color: var(--black);
-}
-
-.bold-text-3 {
-  color: var(--black);
-  font-weight: 500;
 }
 
 .langauge-line-break {
@@ -1315,10 +1314,6 @@ blockquote {
   margin-top: 0;
 }
 
-.cooperation-badge.large {
-  width: 214px;
-}
-
 .heading-5 {
   color: var(--black);
 }
@@ -1376,32 +1371,6 @@ blockquote {
   display: flex;
 }
 
-.columns {
-  grid-column-gap: 60px;
-  grid-row-gap: 0px;
-  display: flex;
-}
-
-.card-social-icon {
-  width: 20px;
-  text-decoration: none;
-  transition: color .2s;
-}
-
-.card-social-icon:hover {
-  color: #3b5998;
-}
-
-.card-social-icon.linkedin:hover {
-  color: #0e76a8;
-}
-
-.card-social-icons {
-  grid-column-gap: 10px;
-  margin-top: 12px;
-  display: flex;
-}
-
 .finncham-link {
   margin-top: 18px;
 }
@@ -1426,10 +1395,6 @@ blockquote {
   display: flex;
 }
 
-.team-link {
-  color: var(--black);
-}
-
 .google-maps-wrapper {
   margin-top: 80px;
 }
@@ -1447,10 +1412,6 @@ blockquote {
   border-radius: 3px;
   width: 24px;
   height: 14px;
-}
-
-.summanen-law-badge {
-  width: 140px;
 }
 
 .service-features-wrapper {
@@ -1574,6 +1535,30 @@ blockquote {
   position: relative;
 }
 
+.locations-grid {
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-top: 80px;
+  display: grid;
+}
+
+.location-image-wrapper {
+  margin-bottom: 20px;
+  padding-top: 100%;
+  position: relative;
+}
+
+.image-absolute-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0%;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 64px;
@@ -1634,14 +1619,6 @@ blockquote {
 
   .paragraph-mega {
     height: auto;
-  }
-
-  .paragraph-mega.card-paragraph {
-    height: 150px;
-  }
-
-  .paragraph-mega.card-paragraph.turkish {
-    height: 270px;
   }
 
   .center-content {
@@ -1858,7 +1835,7 @@ blockquote {
     line-height: 44px;
   }
 
-  .display-3.mg-bottom-8px {
+  .display-3.pricing-title {
     font-size: 36px;
   }
 
@@ -1913,14 +1890,6 @@ blockquote {
     width: 27px;
     height: 16px;
     display: block;
-  }
-
-  .columns {
-    grid-column-gap: 0px;
-  }
-
-  .card-details {
-    height: 35px;
   }
 
   .service-tabs {
@@ -1978,7 +1947,7 @@ blockquote {
     margin-right: 0;
   }
 
-  .paragraph-mega, .paragraph-mega.card-paragraph, .paragraph-mega.card-paragraph.turkish {
+  .paragraph-mega {
     height: auto;
   }
 
@@ -2116,7 +2085,7 @@ blockquote {
     line-height: 40px;
   }
 
-  .display-3.mg-bottom-8px {
+  .display-3.pricing-title {
     font-size: 34px;
   }
 
@@ -2134,6 +2103,10 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
+  .heading.contact.small {
+    font-size: 32px;
+  }
+
   .heading-6 {
     text-align: left;
   }
@@ -2142,14 +2115,12 @@ blockquote {
     display: block;
   }
 
-  .columns {
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    flex-direction: column;
-  }
-
   .image-ukembassy {
     object-fit: cover;
+  }
+
+  .locations-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -2390,12 +2361,6 @@ blockquote {
     padding-right: 24px;
   }
 
-  .image-home-hero-a {
-    background-image: url('../images/31-scaled-e1679233051337.jpg'), url('../images/31-scaled-e1679233051337.jpg');
-    background-position: 75%, 50%;
-    background-size: cover, cover;
-  }
-
   .nav-link-white {
     text-align: right;
     display: block;
@@ -2417,9 +2382,17 @@ blockquote {
     line-height: 35px;
   }
 
-  .display-3.mg-bottom-8px {
+  .display-3.pricing-title {
     font-size: 26px;
     line-height: 42px;
+  }
+
+  .display-3.pricing-title.hide-mobile {
+    display: none;
+  }
+
+  .display-3.pricing-title.show-mobile {
+    display: block;
   }
 
   .badge-primary {
@@ -2441,6 +2414,10 @@ blockquote {
 
   .heading.contact {
     font-size: 40px;
+  }
+
+  .heading.contact.small {
+    font-size: 28px;
   }
 
   .language-dropdown {
@@ -2524,6 +2501,14 @@ blockquote {
 
   .white-text {
     color: var(--white);
+  }
+
+  .locations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location-image-wrapper {
+    padding-top: 70%;
   }
 }
 
@@ -2611,6 +2596,10 @@ blockquote {
   place-self: center;
 }
 
+#w-node-_9acd830a-e79d-9456-77df-971ad8b0691d-b00b8320 {
+  grid-area: span 1 / span 3 / span 1 / span 3;
+}
+
 #w-node-e07045c9-3b6f-2d8d-1ad6-627d685a2740-500b833a {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
@@ -2681,6 +2670,10 @@ blockquote {
   place-self: center;
 }
 
+#w-node-f8c4833a-0bda-deff-9091-ce25e8535a9a-8e0b833f {
+  grid-area: span 1 / span 3 / span 1 / span 3;
+}
+
 #w-node-_0e65d4e3-1c04-8cfd-b3c2-5dc920bb3ff4-7c0b8340 {
   grid-area: span 1 / span 1 / span 1 / span 1;
   align-self: center;
@@ -2689,6 +2682,10 @@ blockquote {
 #w-node-c7ab3e67-3c33-662c-ffa5-828f30e0e3c5-7c0b8340 {
   grid-area: span 1 / span 1 / span 1 / span 1;
   place-self: center;
+}
+
+#w-node-_4de977bf-3f0b-8be2-c07c-c5197b4fc96c-7c0b8340 {
+  grid-area: span 1 / span 3 / span 1 / span 3;
 }
 
 #w-node-b241e640-1a9e-354c-e635-0e38cfa83225-cfa831fd, #w-node-b241e640-1a9e-354c-e635-0e38cfa83233-cfa831fd, #w-node-_88d7413e-6472-ccad-6f70-b8fe7cb0d604-7cb0d601 {
@@ -2760,6 +2757,10 @@ blockquote {
 #w-node-c7ab3e67-3c33-662c-ffa5-828f30e0e3c5-f40b8357 {
   grid-area: span 1 / span 1 / span 1 / span 1;
   place-self: center;
+}
+
+#w-node-aa4f87db-69ed-71f4-2b87-a74db23af7ed-f40b8357 {
+  grid-area: span 1 / span 3 / span 1 / span 3;
 }
 
 #w-node-_6d7fd29e-85a6-492d-3e30-419f2514f4f7-a40b8358 {
@@ -2926,6 +2927,10 @@ blockquote {
   place-self: center;
 }
 
+#w-node-_94abc678-6d75-a600-c4f9-2d06177475ad-ea65d738 {
+  grid-area: span 1 / span 3 / span 1 / span 3;
+}
+
 #w-node-ba2dbcf7-a56e-dd32-9278-533e655c6f59-655c6f56 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
@@ -3015,6 +3020,10 @@ blockquote {
   place-self: center;
 }
 
+#w-node-c7b648f4-d9bd-c071-5786-15299523a510-2f0eb2c6 {
+  grid-area: span 1 / span 3 / span 1 / span 3;
+}
+
 #w-node-_8d9bb582-4e63-275c-ed7e-b7ed49a216a9-406f7c65 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
@@ -3095,6 +3104,10 @@ blockquote {
   place-self: center;
 }
 
+#w-node-_5c011521-e0ea-be86-6551-d4fbbbaa98e6-6e948b7c {
+  grid-area: span 1 / span 3 / span 1 / span 3;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-d3f92c88-1b36-c62b-e596-becb158c8e81-6d0b831b {
     justify-self: start;
@@ -3134,6 +3147,18 @@ blockquote {
 
   #w-node-_0e65d4e3-1c04-8cfd-b3c2-5dc920bb3ff4-6e948b7c {
     justify-self: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-_9acd830a-e79d-9456-77df-971ad8b0691d-b00b8320, #w-node-f8c4833a-0bda-deff-9091-ce25e8535a9a-8e0b833f, #w-node-_4de977bf-3f0b-8be2-c07c-c5197b4fc96c-7c0b8340, #w-node-aa4f87db-69ed-71f4-2b87-a74db23af7ed-f40b8357, #w-node-_94abc678-6d75-a600-c4f9-2d06177475ad-ea65d738, #w-node-c7b648f4-d9bd-c071-5786-15299523a510-2f0eb2c6, #w-node-_5c011521-e0ea-be86-6551-d4fbbbaa98e6-6e948b7c {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_9acd830a-e79d-9456-77df-971ad8b0691d-b00b8320, #w-node-f8c4833a-0bda-deff-9091-ce25e8535a9a-8e0b833f, #w-node-_4de977bf-3f0b-8be2-c07c-c5197b4fc96c-7c0b8340, #w-node-aa4f87db-69ed-71f4-2b87-a74db23af7ed-f40b8357, #w-node-_94abc678-6d75-a600-c4f9-2d06177475ad-ea65d738, #w-node-c7b648f4-d9bd-c071-5786-15299523a510-2f0eb2c6, #w-node-_5c011521-e0ea-be86-6551-d4fbbbaa98e6-6e948b7c {
+    grid-column: span 1 / span 1;
   }
 }
 
