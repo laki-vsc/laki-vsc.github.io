@@ -2510,6 +2510,10 @@ blockquote {
   .location-image-wrapper {
     padding-top: 70%;
   }
+
+  .image-absolute-cover.cover-top {
+    object-position: 50% 25%;
+  }
 }
 
 #w-node-_8d9bb582-4e63-275c-ed7e-b7ed49a216a9-1b0b8304 {
